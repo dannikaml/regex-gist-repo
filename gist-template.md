@@ -38,15 +38,13 @@ A few common quantifiers can also be as follows:
 
 It should also be noted that quantifiers can be useful for identifying/matching patterns that have multiple occurrences within a string or a character set and helps us avoid having to specify each instance individually. Having said that, it is important when using quantifiers to be careful so as to avoid excessive matching, or the adverse, not matching enough in a pattern. 
 
-
 ### **OR Operator**
 ***
-In the instance of our example string `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/` the OR Operator would be the `|` value. 
+In the instance of our example string /^#?([a-f0-9]{6} **|** [a-f0-9]{3})$ the OR Operator would be the `|` value. 
 
-Where regex is concerned, a developer can utilize this to match one set of patterns to another. So our string /^#?([a-f0-9]{6} **|** [a-f0-9]{3})$ is comparing the 6 digit value to the 3 digit value. 
+Where regex is concerned, a developer can utilize this to match one set of patterns to another. So our string `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/` is comparing the 6 digit value to the 3 digit value. 
 
 ### **Character Classes**
-***
 Character classes - Here is where we will see our first color code! Color code is a string of the random numbers or symbols in the Hexadecimal value system. In this case we will use `#a71e2c` for our example. 
 
 Character classes allows the developer to match any character that belongs to a specific set; and since we are using the Hexadecimal system of 16 numbers or symbols we know all the character classes of "[a-f0-9]" will match any character that is either a lowercase letter from "a" to "f", or a digit from "0" to "9". 
@@ -62,8 +60,7 @@ Developers can use the parenthesis `(...)` or round brackets by placing them aro
 
 In our example code `^#?([a-f0-9]{6}|[a-f0-9]{3})$/`, **([a-f0-9]{6}|[a-f0-9]{3})** is the capturing group. When a color code string specifically is checked against the regular expression or regex, the part of the code that matches the pattern inside the `(...)` or paranthesis is saved for later use. 
 
-A simpler example of this is if as a developer you use the color code `#aaa000` then that is checked against the regex, the hex value is `(aaa000)` and it is then captured and saved.
-
+A simpler example of this is if as a developer you use the color code `#aaa000` and then that is checked against the regex, the hex value is `(aaa000)` and it is then captured and saved. 
 
 ### **Back-references**
 ***
@@ -80,4 +77,4 @@ Hi, I'm newer to the world of web development! My name is Dannika Long, and this
 
 One of the important technologies that I'm currently exploring is regex. I'm creating this gist as a way to document and explore regex in more detail (and also as a homework assignment ((=  ). I hope that this will be helpful for any other new developers who are also looking for more info and/or knowledge as we continue on our learning journey's. 
 
-As I continue to learn and explore new technologies, you can expect to see more projects and resources from me in the future!You can check those out here: [GitHub Profile: https://github.com/dannikaml](https://github.com/dannikaml)
+As I continue to learn and explore new technologies, you can expect to see more projects and resources from me in the future! You can check those out here: [GitHub Profile: https://github.com/dannikaml](https://github.com/dannikaml)
