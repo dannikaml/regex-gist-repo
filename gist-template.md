@@ -4,7 +4,7 @@ In this tutorial, we will learn about a commonly used regular expression called 
 
 ## **Summary**
 
-For this tutorial we will use `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/` to breakdown how to match color code. Color code starts with the hashtag or pound symbol: `#`, followed by six or three-digit code using the numbers and letters of the Hexadecimal system. For starters Hex Values refer to Hexadecimal. Hexadecimal is described as "a base-16 number system". When utilized in code it represents large numbers by using fewer digits - these numbers are: **0, 1, 2, 3, 4, 5, 6, 7, 8, 9** and six letters: **A, B, C, D, E, F**. 
+For this tutorial we will use `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/` to breakdown how to match color code. Color code starts with the hashtag or pound symbol: `#`, followed by six or three-digit code using the numbers and letters of the Hexadecimal system. For starters Hex Values refer to Hexadecimal. Hexadecimal is described as "a base-16 number system". When utilized in code it represents large numbers by using fewer digits - these numbers are: **0, 1, 2, 3, 4, 5, 6, 7, 8, 9** and six letters: **a, b, c, d, e, f**. 
 
 ## Table of Contents
 
